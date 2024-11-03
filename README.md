@@ -1,8 +1,7 @@
-# React + Vite
+# COMP2004 - Project-1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Groceries App V1
 
-Currently, two official plugins are available:
+This project entails building a simple yet functional grocery shopping app, utilizing most of the core programming concepts covered. As part of the task, students will create an interactive app where users can select grocery items from an inventory, view their cart contents, and check out.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Due Oct. 29th, 2024 @ 11:59 p.m.

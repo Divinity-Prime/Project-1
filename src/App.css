@@ -1,42 +1,95 @@
 #root {
-  max-width: 1280px;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 1150px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.navbar {
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  height: 100%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.products-container {
+  width: 75%;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.product-card {
+  width: 20%;
+  border: 2px wheat solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
 }
 
-.card {
-  padding: 2em;
+.product-card span {
+  margin: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.quantity-counter span {
+  margin: 10px;
+}
+
+img {
+  height: 50px;
+  border-radius: 5px;
+}
+
+.cart-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px wheat solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(43, 48, 54);
+}
+
+.info-cart {
+  flex-direction: column;
+}
+
+.prices {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.prices button {
+  color: white;
+  background-color: red;
+}
+
+.cart-actions1 button {
+  color: white;
+  background-color: red;
+  margin-right: 10px;
+}
+.cart-actions2 button {
+  color: white;
+  background-color: green;
+}
+
+.endclass {
+  display: flex;
+  margin: 10px;
+}
+
+.groceries {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
