@@ -1,14 +1,11 @@
-import { useState } from "react"; // Importing React hooks
 import QuantityCounter from "./QuantityCounter"; // Importing QuantityCounter component
 
 // CartCard component displays individual items in the cart
 const CartCard = ({ item, removeFromCart }) => {
   return (
     <div className="cart-card">
-      {" "}
       {/* Card container */}
       <div className="info-cart">
-        {" "}
         {/* Item info section */}
         <img src={item.image} alt={item.productName} /> {/* Product image */}
         <p>{item.productName}</p> {/* Product name */}
@@ -16,7 +13,6 @@ const CartCard = ({ item, removeFromCart }) => {
         <QuantityCounter quantity={item.quantity} /> {/* Quantity selector */}
       </div>
       <div className="prices">
-        {" "}
         {/* Pricing section */}
         <p>
           <b>

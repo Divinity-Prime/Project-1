@@ -1,4 +1,3 @@
-import { useState } from "react"; // Importing React hooks
 import GroceriesAppContainer from "./Components/GroceriesAppContainer"; // Importing main app container
 import "./App.css"; // Importing CSS styles
 

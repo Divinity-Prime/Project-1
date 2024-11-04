@@ -1,11 +1,9 @@
-import { useState } from "react"; // Importing React hooks
 import ProductCard from "./ProductCard"; // Importing the ProductCard component
 
 // ProductsContainer component displays a list of products
 const ProductsContainer = ({ products, addToCart }) => {
   return (
     <div className="products-container">
-      {" "}
       {/* Container for product cards */}
       {products.map((product) => (
         <ProductCard

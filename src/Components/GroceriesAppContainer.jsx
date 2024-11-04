@@ -40,7 +40,7 @@ const GroceriesAppContainer = () => {
     <div>
       <NavBar cart={cart} /> {/* Navigation bar with cart info */}
       <div className="groceries">
-        <ProductsContainer products={products} addToCart={addToCart} />{" "}
+        <ProductsContainer products={products} addToCart={addToCart} />
         {/* Display products */}
         <CartContainer
           cart={cart}

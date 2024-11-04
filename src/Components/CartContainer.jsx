@@ -1,4 +1,3 @@
-import { useState } from "react"; // Importing React hooks
 import CartCard from "./CartCard"; // Importing the CartCard component
 
 // CartContainer component manages and displays the shopping cart
@@ -15,7 +14,6 @@ const CartContainer = ({ cart, removeFromCart, emptyCart }) => {
 
   return (
     <div className="cart-container">
-      {" "}
       {/* Container for the cart */}
       {cart.length === 0 ? ( // Check if the cart is empty
         <p>No items in the cart.</p>
@@ -30,14 +28,13 @@ const CartContainer = ({ cart, removeFromCart, emptyCart }) => {
             />
           ))}
           <div className="endclass">
-            {" "}
             {/* Actions at the end of the cart */}
             <div className="cart-actions1">
-              <button onClick={emptyCart}>Empty Cart</button>{" "}
+              <button onClick={emptyCart}>Empty Cart</button>
               {/* Button to empty the cart */}
             </div>
             <div className="cart-actions2">
-              <button>Buy Total: ${totalPrice.toFixed(2)}</button>{" "}
+              <button>Buy Total: ${totalPrice.toFixed(2)}</button>
               {/* Button showing total price */}
             </div>
           </div>

@@ -15,10 +15,9 @@ const ProductCard = ({ product, addToCart }) => {
 
   return (
     <div className="product-card">
-      {" "}
       {/* Container for product details */}
       <h3>{product.productName}</h3> {/* Product name */}
-      <img src={product.image} alt={product.productName} />{" "}
+      <img src={product.image} alt={product.productName} />
       {/* Product image */}
       <p>
         <b>{product.brand}</b> {/* Product brand */}
@@ -31,13 +30,13 @@ const ProductCard = ({ product, addToCart }) => {
           -
         </button>
         <span>{quantity}</span> {/* Display current quantity */}
-        <button onClick={() => setQuantity(quantity + 1)}>+</button>{" "}
+        <button onClick={() => setQuantity(quantity + 1)}>+</button>
         {/* Increase quantity */}
       </div>
       <p>
         <b>{product.price}</b> {/* Product price */}
       </p>
-      <button onClick={handleAddToCart}>Add to Cart</button>{" "}
+      <button onClick={handleAddToCart}>Add to Cart</button>
       {/* Button to add product to cart */}
     </div>
   );
